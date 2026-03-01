@@ -1,5 +1,14 @@
-_site
-.sass-cache
-.jekyll-cache
+# Claude
+.claude/
+
+# Obsidian
+.obsidian/
+
+# Jekyll
+_site/
+.sass-cache/
+.jekyll-cache/
 .jekyll-metadata
-vendor
+
+# Bundler
+vendor/
