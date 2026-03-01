@@ -1,0 +1,21 @@
+# Claude
+.claude/
+
+# Obsidian
+.obsidian/
+
+# Jekyll build output
+_site/
+.jekyll-cache/
+.jekyll-metadata
+
+# Bundler
+.bundle/
+vendor/
+
+# Ruby
+*.gem
+
+# OS
+.DS_Store
+Thumbs.db
