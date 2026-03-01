@@ -3,7 +3,6 @@ layout: page
 title: Now
 permalink: /now/
 ---
-
 *Updated March 2026.*
 
 Currently based in the UK.
