@@ -1,0 +1,19 @@
+---
+layout: default
+---
+
+<div class="wrap">
+  <p class="posts-label">Writing</p>
+  <ul class="post-list list-plain">
+    {%- for post in site.posts -%}
+    <li>
+      <a href="{{ post.url | relative_url }}" class="plain">
+        <span class="post-row">
+          <span class="post-date">{{ post.date | date: "%Y · %m" }}</span>
+          <u>{{ post.title | escape }}</u>
+        </span>
+      </a>
+    </li>
+    {%- endfor -%}
+  </ul>
+</div>
